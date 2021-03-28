@@ -464,3 +464,94 @@ nav ul li {
 	margin: auto !important;
 	margin-top: 3% !important;
 }
+
+/***********ContactMe***********/
+.contactme {
+	background: var(--primary-dark);
+	padding: 3rem 0;
+}
+
+.contactme h1 {
+	color: var(--primary-orange);
+	padding: 1.3rem 0;
+	text-transform: uppercase;
+}
+
+.contactme p {
+	color: var(--primary-light-grey);
+	font-size: 1.2rem;
+}
+
+/*--------------------Inputs--------------------*/
+.contactme input,
+.contactme textarea {
+	width: 100%;
+	box-sizing: border-box;
+	background: none;
+	resize: none;
+	border: 0;
+	border-bottom: 0.125rem solid var(--primary-dark-grey);
+	border-radius: 0;
+	color: var(--primary-orange);
+	outline: 0 !important;
+	box-shadow: none !important;
+	margin-bottom: 1rem;
+	padding-left: 0 !important;
+}
+
+.contactme .container {
+	padding: 4rem 0;
+}
+
+.contactme input:focus,
+.contactme textarea:focus {
+	background: transparent;
+	color: var(--primary-orange);
+	border-bottom: 0.125rem solid var(--primary-dark-grey);
+}
+
+.contactme textarea {
+	height: 12.2rem !important;
+}
+
+.contact-btn {
+	margin: 1rem 0 0 0;
+	width: 100%;
+	background: none;
+}
+
+.line {
+	position: relative;
+	top: -0.8rem;
+	width: 0;
+	height: 0.125rem;
+	background: var(--primary-orange);
+	display: inline-block;
+}
+
+input:focus + .line,
+textarea:focus + .line {
+	width: 100%;
+	transition: width 0.5s ease-in-out;
+}
+
+input.form-control {
+	margin: -0.3rem 0;
+}
+
+textarea.form-control {
+	margin: -0.3rem 0;
+}
+
+/*--------------------Media--------------------*/
+@media (max-width: 768px) {
+	.contactme {
+		overflow-x: hidden;
+	}
+	.contactme .container {
+		padding: 0 1rem;
+	}
+	.contactme p {
+		padding: 0 0.4rem;
+	}
+}

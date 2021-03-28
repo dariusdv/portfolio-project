@@ -9,6 +9,7 @@ import Services from './components/Services';
 import Experience from './components/Experience';
 import Portfolio from './components/Portfolio';
 import Testimonials from './components/Testimonials';
+import ContactMe from './components/ContactMe';
 
 function App() {
 	return (
@@ -41,6 +42,7 @@ function App() {
 			<Experience />
 			<Portfolio />
 			<Testimonials />
+			<ContactMe />
 		</React.Fragment>
 	);
 }
