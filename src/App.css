@@ -10,6 +10,7 @@
 	--primary-grey: #ccd1d9;
 	--primary-dark-grey: #666666;
 	--primary-black: #000000;
+	--primary-green: green;
 	--primary-transparent-black: rgba(0, 0, 0, 0.7);
 }
 
@@ -541,6 +542,17 @@ input.form-control {
 
 textarea.form-control {
 	margin: -0.3rem 0;
+}
+
+.error-message {
+	color: var(--primary-white);
+	background: var(--primary-red);
+	text-align: left;
+}
+
+.success-message {
+	font-weight: 900;
+	color: var(--primary-green);
 }
 
 /*--------------------Media--------------------*/
